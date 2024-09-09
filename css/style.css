@@ -1,0 +1,276 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* ----------Header--------- */
+.headerContainer {
+  background-color: rgb(236, 246, 228);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.leftContainer {
+  padding: 0;
+  width: 100%;
+}
+
+.pragati {
+  color: rgb(1, 72, 47);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.pragati h1 {
+  font-size: 3rem;
+  letter-spacing: -2px;
+  margin: 0;
+}
+
+.pragati h1 span {
+  font-size: 2em;
+}
+
+/* ----------------OTHER LETTERS--------------- */
+
+.letterContainer {
+  display: flex;
+  /* background-color: lightgoldenrodyellow; */
+}
+
+.letterP {
+  /* background-color: lightcoral; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-right: 5px;
+}
+
+.otherLetter {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* background-color: lightgray; */
+  padding-top: 1.2rem;
+}
+
+.letterP h1 {
+  color: rgb(1, 72, 47);
+  font-size: 6.2rem;
+}
+
+.leftover {
+  letter-spacing: 2px;
+  margin-bottom: -5%;
+  /* background-color: lightseagreen; */
+}
+
+.leftover h2 {
+  color: rgb(1, 72, 47);
+  font-size: 2.6rem;
+}
+
+.bookStores {
+  /* background-color: lightblue; */
+}
+
+.bookStores h4 {
+  color: rgb(1, 72, 47);
+  font-size: 1.6;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bookStores h4 span {
+  color: lightcoral;
+  font-size: 1.8rem;
+}
+
+/* ------end------ */
+
+/*  */
+.headerContainer {
+  padding: 20px 0; /* Add some padding for better spacing */
+}
+
+.leftContainer h1 {
+  text-align: center; /* Center the text horizontally */
+}
+
+.pragati h1 {
+  font-size: 3rem; /* Adjust as needed */
+  letter-spacing: 2px; /* Space out letters for better visibility */
+}
+
+.rightContainer {
+  text-align: center; /* Center align the right section text */
+}
+
+.socials {
+  margin-top: 10px; /* Add spacing below the text */
+}
+
+/*  */
+
+.bookStore h4 {
+  margin-left: 11%;
+  width: fit-content;
+  letter-spacing: 0.5px;
+  font-size: 1.2rem; /* Adjusted to rem */
+  color: rgb(1, 72, 47);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.rightContainer {
+  padding-top: 30px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.rightContainer h3 {
+  color: rgb(1, 72, 47);
+  letter-spacing: 0.5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem; /* Adjusted to rem */
+}
+
+/* .rightContainer h3 span {
+  letter-spacing: 0.5px;
+  font-size: 0.8em;
+  color: rgb(1, 72, 47);
+} */
+
+/* Media Queries for Responsive Font Sizing */
+@media (max-width: 768px) {
+  .pragati h1 {
+    font-size: 2.5rem;
+  }
+
+  .bookStore h4 {
+    font-size: 1rem;
+  }
+
+  .rightContainer h3 {
+    font-size: 1.2rem;
+  }
+
+  .rightContainer h3 span {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 576px) {
+  .pragati h1 {
+    font-size: 2rem;
+  }
+
+  .bookStore h4 {
+    font-size: 0.9rem;
+  }
+
+  .rightContainer h3 {
+    font-size: 1rem;
+  }
+
+  .rightContainer h3 span {
+    font-size: 0.6em;
+  }
+}
+
+/* ----------Location--------- */
+.location {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  color: whitesmoke;
+  background-color: rgb(1, 72, 47);
+}
+
+.locationIcon a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.locationIcon {
+  letter-spacing: 0.5px;
+}
+
+/* ---------NAVBAR--------- */
+.navbar {
+  background-color: rgb(236, 246, 228);
+  border-top: 2px solid rgb(1, 72, 47);
+  border-bottom: 2px solid rgb(1, 72, 47);
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav .nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.05em;
+  color: rgb(1, 72, 47);
+  letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: rgb(1, 72, 47);
+  color: whitesmoke;
+}
+
+/* ----------Scroll Bar----------- */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(4, 116, 77); /* Scrollbar color */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(1, 72, 47, 0.3); /* Lighter background version */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(1, 72, 47) rgba(1, 72, 47, 0.3);
+}
+
+/* ------------FOOTER------------- */
+.footer {
+  padding: 20px 0;
+  background-color: rgb(1, 72, 47);
+  color: whitesmoke;
+  margin-top: 50px;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+.space {
+  margin-left: 77px;
+}
+
+.map-container {
+  width: 100%;
+  height: 250px;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+
+  .map-container {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,103 @@
+/* -----------Ist---------- */
+.cards {
+  margin-top: 50px;
+}
+
+.col-md-2 {
+  width: 100%; /* Changed to 100% for better responsiveness */
+}
+
+.product-card {
+  width: 100%; /* Changed to 100% for better responsiveness */
+  max-width: 160px; /* Keeps the maximum width of the card */
+  height: auto; /* Adjusts height automatically */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto; /* Adjusts height automatically */
+  object-fit: cover;
+  border: 1px solid rgb(1, 72, 47);
+}
+
+.product-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(1, 72, 47);
+}
+
+.card-body {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid rgb(1, 72, 47);
+}
+
+.card-title {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 0.9em;
+}
+
+/* ------------IMAGE PREVIEW------------ */
+#imagePopupContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+#imagePopup {
+  position: relative;
+}
+
+#popupImage {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+#closePopup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+/* ----------More---------- */
+.btun {
+  background-color: transparent !important;
+  border-color: 20px solid rgb(1, 72, 47) !important;
+  font-size: 1.1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(1, 72, 47);
+  padding: 5px 15px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.btun i {
+  font-size: 1.2em;
+}
+
+.btun:hover {
+  background-color: rgb(1, 72, 47) !important;
+  color: whitesmoke !important;
+}

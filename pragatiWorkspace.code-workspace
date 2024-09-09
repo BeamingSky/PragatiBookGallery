@@ -1,0 +1,56 @@
+{
+	"folders": [
+		{
+			"name": "CHESSSSSS",
+			"path": "..\\Car\\CHESSSSSS"
+		},
+		{
+			"name": "HTML_CSS_JS",
+			"path": ".."
+		},
+		{
+			"name": "Bootport",
+			"path": "..\\..\\Bootport"
+		},
+		{
+			"name": "Python",
+			"path": "..\\..\\Python"
+		},
+		{
+			"name": "JAVA",
+			"path": "..\\..\\JAVA"
+		},
+		{
+			"name": "java codes",
+			"path": "..\\..\\java codes"
+		},
+		{
+			"name": "New folder",
+			"path": "E:\\project work\\css\\New folder"
+		},
+		{
+			"name": "project",
+			"path": "..\\..\\O level\\project"
+		},
+		{
+			"name": "avascript",
+			"path": "..\\..\\avascript"
+		},
+		{
+			"name": "bus",
+			"path": "..\\..\\bus"
+		},
+		{
+			"name": "GO",
+			"path": "..\\..\\GO"
+		},
+		{
+			"name": "SFDeveloper",
+			"path": "..\\..\\SFDeveloper"
+		}
+	],
+	"settings": {
+		"livePreview.defaultPreviewPath": "f:\\HTML_CSS_JS\\Super Pyada\\index.html",
+		"liveServer.settings.multiRootWorkspaceName": "HTML_CSS_JS"
+	}
+}

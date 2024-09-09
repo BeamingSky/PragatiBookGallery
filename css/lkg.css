@@ -1,0 +1,50 @@
+.cards {
+  margin-top: 50px;
+}
+
+.col-md-2 {
+  width: 100%; /* Changed to 100% for better responsiveness */
+}
+
+.product-card {
+  width: 100%; /* Changed to 100% for better responsiveness */
+  max-width: 160px; /* Keeps the maximum width of the card */
+  height: auto; /* Adjusts height automatically */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto; /* Adjusts height automatically */
+  object-fit: cover;
+  border: 1px solid rgb(1, 72, 47);
+}
+
+.product-heading {
+  text-align: start;
+  font-size: 2em;
+  margin-bottom: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(1, 72, 47);
+}
+
+.custom-hr {
+  border-width: 3px; /* Adjust the thickness as needed */
+  border-color: rgb(1, 72, 47);
+}
+
+.card-body {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid rgb(1, 72, 47);
+}
+
+.card-title {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 0.9em;
+}
