@@ -210,11 +210,7 @@
         <!-- Card 1 -->
         <div class="col-md-2 col-6">
           <div class="card product-card">
-            <img
-              src="https://via.placeholder.com/160x200"
-              class="card-img-top"
-              alt="Product 1"
-            />
+            <img src="images/evs1.webp" class="card-img-top" alt="Product 1" />
             <div class="card-body">
               <h5 class="card-title">Product 1</h5>
               <p class="card-text">Short description.</p>
@@ -391,6 +387,14 @@
       </div>
     </div>
 
+    <!-- Container to hold the enlarged image (only one container needed) -->
+    <div id="imagePopupContainer" style="display: none">
+      <div id="imagePopup">
+        <img id="popupImage" src="" alt="Enlarged Image" />
+        <button id="closePopup">Close</button>
+      </div>
+    </div>
+
     <!-- ----------------------Footer--------------------- -->
     <div class="footer pt-4">
       <div class="container about">
@@ -444,5 +448,6 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
